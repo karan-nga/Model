@@ -1,0 +1,206 @@
+body{
+  font-size: 16px;
+  color: #fff;
+  background-color: #000000;
+  font-family: "Oxygen", sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: red;
+  border-radius: 0;
+  border: 0;
+  width: 100%;
+  height: 150px;
+}
+
+#logo-img {
+  background: url("images/Icon-4.png") no-repeat;
+  width: 143px;
+  height: 150px;
+  margin-top: 0px;
+}
+
+.navbar-brand {
+  padding-top: 3px;
+}
+.navbar-brand h1 {
+  /* Restaurant name */
+  padding-left: 120px;
+  position: relative;
+  font-family: "Lora", serif;
+  color: rgb(205, 50, 50);
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0px;
+}
+
+.navbar-brand p{
+  padding-right: 10px;
+  padding-top: 3px;
+  font-size: 5px;
+  font-weight: all;
+}
+
+.navbar-brand p span{
+
+}
+
+/*.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}*/
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951c49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* END HEADER */
+
+.image{
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.on-img{
+  position: absolute;
+  top: 50px;
+}
+
+/*.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  text-align: center;
+  padding: 0px;
+  font-size: 20px;
+}*/
+
+.tagline{
+  position: absolute;
+  top: 8px;
+  left: 6px;
+}
+
+.scroll-left {
+width: 1513px;
+ height: 50px;  
+ overflow: hidden;
+ position: relative;
+ background:white;
+ color: orange;
+ border: 3px solid orange;
+}
+
+.scroll-left p {
+ position: absolute;
+ font-weight: bold;
+ color: black;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%);     
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}
+
+.mycard {
+  display: block;
+  padding: 42px;
+  transition: 0.3s;
+}
+
+.mycard:hover{
+  transform: scale(1.02);
+}
+
+.container1{
+  position: absolute;
+  margin: 10px;
+  max-width: 20px;
+}
+
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.mycardcontent {
+  display: block;
+  margin: auto;
+}
+
+.mybtn {
+  display: block;
+  padding-left: 0%;
+  margin-top: 9px;
+  margin-left: 0%;
+}
+
+.mycardtxt {
+  color: black;
+}
+
+/* FOOTER */
+.panel-footer {
+  position: absolute;
+  height: fit-content;
+  margin-bottom: 0px;
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours,
+#address {
+  line-height: 2;
+  color: whitesmoke;
+}
+#hours > span,
+#address > span {
+  font-size: 1.3em;
+  color: whitesmoke;
+}
+#address p {
+  color: #557c3e;
+  font-size: 0.8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+  color: whitesmoke;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
